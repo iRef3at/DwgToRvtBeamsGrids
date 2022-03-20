@@ -1,0 +1,12 @@
+A Simple graph to create Revit grids and beams from a .dwg cad lines.
+
+In order for this graph to work you need bimorph custom nodes package to be installed.
+
+How it works?
+
+Start new structure project in revit
+Import or link .dwg file 
+Run dynamo
+Press select in the first node then go back to revit workspace and select the .dwg 
+Double check layers name ( by default "Grids", "Beams")
+Press run 
